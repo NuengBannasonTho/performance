@@ -59,15 +59,37 @@
 
     a {
         text-decoration: none;
-        color: #000000;
-    }
-
-    a:hover {
-        color: #000000;
+        color: #ffff;
     }
 
     .back {
         padding-left: 20px;
+    }
+    .btn_click {
+        color: #ffffff;
+        background-color: transparent;
+        border: 1px solid #ffffff;
+        width: 100px;
+        height: 28px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+        font-style: bold;
+    }
+
+    .btn_click:hover a,
+    .btn_click:hover a {
+        color: #000;
+        font-weight: 700;
+        font-style: bold;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .btn_click:hover {
+        background-color: #ffffff;
+        color: #000000;
     }
 
 </style>
@@ -75,7 +97,7 @@
     <div class="page">
         <br>
     <div class="back">
-        <a style="color: #ffffff;" href="http://127.0.0.1:5501/Resume/index.html#"><i class="fa-solid fa-circle-arrow-left" style="color: #ffffff;"></i> Back</a>
+        <a style="color: #ffffff;" href="https://nuengbannasontho.github.io/Resume/"><i class="fa-solid fa-circle-arrow-left" style="color: #ffffff;"></i> Back</a>
     </div>
         <div class="container">
             <div class="row">
@@ -89,7 +111,10 @@
                 <center>
                 <div class="box-1">
                     <p style="padding-top: 15px; margin-bottom: 10px; color: #ffffff;">Performance 1 - Landing page</p>
-                    <button><a href="https://adisornsriphongthong.github.io/WP-Landing-Page-Index/"> click </a></button>
+                    <!-- <button></button> -->
+                    <div class="btn_click">
+                        <a href="https://adisornsriphongthong.github.io/WP-Landing-Page-Index/"> View </a>
+                    </div>
                 </div>
                 </center>
                                 
@@ -99,8 +124,9 @@
                     <div class="box-2">
                         
                         <p style="padding-top: 15px; margin-bottom: 10px; color: #ffffff;">Performance 2 - Drum Kanit</p>
-                        
-                        <button><a href="https://nueng-combo01.github.io/Drum/"> click </a></button>
+                        <div class="btn_click">
+                            <a href="https://nuengbannasontho.github.io/Drum/"> View </a>
+                        </div>
                     </div>
                     </center>       
                     </div>
